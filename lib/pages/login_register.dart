@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors
+// ignore_for_file: prefer_const_constructors, use_build_context_synchronously
 
 import 'package:flutter/material.dart';
 
@@ -49,6 +49,7 @@ class _LoginPageState extends State<LoginPage> {
                 // Handle authentication result
                 if (error == null) {
                   // Navigate to home page or perform any desired action
+                  Navigator.pushReplacementNamed(context, '/bottomNavigation');
                   print('Login successful');
                 } else {
                   // Display error message
@@ -127,6 +128,7 @@ class _RegistrationPageState extends State<RegistrationPage> {
                 // Handle authentication result
                 if (error == null) {
                   // Navigate to home page or perform any desired action
+                  Navigator.pushReplacementNamed(context, '/bottomNavigation');
                   print('Registration successful');
                 } else {
                   // Display error message

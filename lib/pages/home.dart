@@ -1,6 +1,7 @@
 // ignore_for_file: use_key_in_widget_constructors, prefer_const_constructors
 
 import 'package:flutter/material.dart';
+import 'package:gym_bro/pages/auth.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -32,6 +33,12 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
+             ElevatedButton(
+              onPressed: () async {
+                 await authService.signOut();
+              },
+              child: Text('Logout'),
+             ),
             ElevatedButton(
               onPressed: () {
                 _showAddExerciseDialog(context);
