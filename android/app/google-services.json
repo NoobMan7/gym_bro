@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "190005078144",
+    "project_id": "gym-bro-95198",
+    "storage_bucket": "gym-bro-95198.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190005078144:android:e02a708c15e539d2cede65",
+        "android_client_info": {
+          "package_name": "com.example.gym_bro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4Npodaw02ODWMKq9F_fpo5eeQ6oJXFGg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
